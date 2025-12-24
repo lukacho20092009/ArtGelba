@@ -15,12 +15,25 @@
 const paintings = [
 
 {
+     id: 272 ,
+     title: 'Mona Liza',
+     price: 8500,
+     img: 'https://res.cloudinary.com/dri8nh3tr/image/upload/v1766509095/598754430_737591945579063_7130888278114965514_n_aiph3f.jpg',
+     desc: '"Mona Liza". Acrylic. Cardboard. 36X12 In. ( 100X30 Cm). location: Georgia.',
+     sold: false,
+     variations: ['https://res.cloudinary.com/dri8nh3tr/image/upload/v1766254181/b564961d-860e-48a4-88e4-01bc9ca294f4_peykq6.jpg',
+                  'https://res.cloudinary.com/dri8nh3tr/image/upload/v1766253954/ecb71e83-a7f8-4105-9d69-7685de42175d_vfmymg.jpg',
+                 'https://res.cloudinary.com/dri8nh3tr/image/upload/v1766254128/fb665ab3-c936-4c4f-826a-324a566ed38c_q7lcqh.jpg',
+                 ],
+   },
+
+{
   id: 271,
   title: 'Orchids',
-  price: 2000,
+  price: 2500,
   img: 'https://res.cloudinary.com/dri8nh3tr/image/upload/v1765383620/484831748_984118423824763_5821871239569853574_n.jpg_s5he9v.jpg',
   desc: '"Orchids". Acrylic. Cardboard. 36X12 In. ( 100X30 Cm). location: USA.',
-  sold: false,
+  sold: true,
   variations: [],
 },
 
@@ -3320,3 +3333,4 @@ sizeRange.addEventListener("touchstart", e => {
 sizeRange.addEventListener("touchmove", e => {
   e.preventDefault();
 }, { passive: false });
+
